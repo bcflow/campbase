@@ -1,0 +1,11 @@
+Hello <%= @user.first_name %>,
+
+Here are the new tasks that were created today for your projects.
+  
+  <% @discussions.each do |discussion| %>
+   Project: <%= discussion.project.title %>
+   Task: <%= discussion.title %>
+    <% end %>
+
+Have a good one!
+Campbase Mailman

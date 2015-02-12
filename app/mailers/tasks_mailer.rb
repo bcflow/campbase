@@ -4,5 +4,6 @@ class TasksMailer < ApplicationMailer
      @user = @task.user
      mail to: @user.email, subject: "Ahoy hoy!"
   end
+  
 end
 

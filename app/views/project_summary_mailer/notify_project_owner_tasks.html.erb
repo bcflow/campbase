@@ -1,0 +1,19 @@
+<p>Hello <%= @user.first_name %>,</p>
+
+<p>Here are the new tasks that were created today for your projects.</p>
+  
+  <table>
+    <tr>
+      <th>Project</th>
+      <th>Task</th>
+    </tr>
+    <% @tasks.each do |task| %>
+      <tr>
+        <td><%= task.project.title %></td>
+        <td><%= task.title %></td>
+      </tr>
+    <% end %>
+  </table>
+
+<p>Have a good one!</p>
+<em>Campbase Mailman</em>
