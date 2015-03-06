@@ -1,4 +1,4 @@
 == Campbase
 
-- Project management system built as a project in Codecore's development course. Built on Rails, html/css and AJAX.
+- (alpha version - not being worked on atm) Project management system built as a project in Codecore's development course. Built on Rails, html/css and AJAX.
 
